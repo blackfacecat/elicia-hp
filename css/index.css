@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "YouMingChaoTi-Medium-2";
+  src: url("./YouMingChaoTi-Medium-2.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "YouMingChaoTi-Medium-2";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.boxa {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: palevioletred;
+  background-image: url("./圖片/S__336535564.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  margin-top: 80px;
+  padding: 15% 5%;
+  box-sizing: border-box;
+  position: relative;
+  background-attachment: fixed;
+}/*# sourceMappingURL=index.css.map */
